@@ -71,13 +71,13 @@ Following scenarios don't work. They fail in different ways.
 * This is the result of the conversation when typing all responses, but still using the DLS adapter.
 * Generally all spoken messages w/mic will continue the conversation just fine if the bot's response is just vanilla text. See following for exceptions/details.
 
-1. Type anything to start the OAuthPrompt dialog, which should pull up a sign-in card
+1. *Type anything to start the OAuthPrompt dialog, which should pull up a sign-in card*
     * If I type a message like "hi", the OAuthPrompt sign-in card loads fine
     * If I use the mic and verbally say "hi", the OAuthPrompt sign-in card does not load and you'll get "The bot encounterd an error or bug."
         * Update: I don't know why verbally saying "hi" is now working, when it didn't  before. *sigh, the erractic, inconsistent behavior...*
-2. Click sign-in
+2. *Click sign-in*
     * Note: saying "Sign in." verbally will not trigger any errors in neither browser nor bot consoles, but the bot will stop responding--can type in more responses without bot throwing, but no further responses from bot
-3. Try to log out
+3. *Try to log out*
     * Both typing "hi" and verbally saying "hi" will result in "The bot encountered an error or bug"
     * Errors in bot. But in browser console that has WC, it  has time out waiting for activity response error
     * ![Response Timeout](./response-timeout.png "Response Timeout")
