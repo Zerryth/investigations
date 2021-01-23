@@ -74,7 +74,7 @@ Following scenarios don't work. They fail in different ways.
 1. Type anything to start the OAuthPrompt dialog, which should pull up a sign-in card
     * If I type a message like "hi", the OAuthPrompt sign-in card loads fine
     * If I use the mic and verbally say "hi", the OAuthPrompt sign-in card does not load and you'll get "The bot encounterd an error or bug."
-        * Update: I don't know why verbally saying "hi" is now working, when it didn't  before. *sigh, the erractic, inconsisten behavior...*
+        * Update: I don't know why verbally saying "hi" is now working, when it didn't  before. *sigh, the erractic, inconsistent behavior...*
 2. Click sign-in
     * Note: saying "Sign in." verbally will not trigger any errors in neither browser nor bot consoles, but the bot will stop responding--can type in more responses without bot throwing, but no further responses from bot
 3. Try to log out
